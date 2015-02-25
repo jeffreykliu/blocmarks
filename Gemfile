@@ -5,9 +5,9 @@ source 'https://rubygems.org'
    gem 'rails_12factor'
  end
  
- #group :development do
- #  gem 'sqlite3' # Use sqlite3 as the database for Active Record
- #end
+ group :development do
+   gem 'sqlite3' # Use sqlite3 as the database for Active Record
+ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.7'
